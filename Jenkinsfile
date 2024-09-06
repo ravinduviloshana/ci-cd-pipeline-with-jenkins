@@ -73,7 +73,7 @@ pipeline {
                 emailext(
                     subject: "Build ${currentBuild.fullDisplayName} - ${currentBuild.result}",
                     body: "Build ${currentBuild.fullDisplayName} finished with status: ${currentBuild.result}\n\nCheck the build logs for details.",
-                    to: 'your-email@example.com',
+                    to: 'viloshanaravindu@gmail.com',
                     attachLog: true
                 )
             }
